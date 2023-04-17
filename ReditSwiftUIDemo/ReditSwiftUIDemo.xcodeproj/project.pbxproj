@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		527D50B729ED506100E449F5 /* ReditSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50B629ED506100E449F5 /* ReditSwiftUIDemoApp.swift */; };
+		527D50B929ED506100E449F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50B829ED506100E449F5 /* ContentView.swift */; };
+		527D50BB29ED506200E449F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527D50BA29ED506200E449F5 /* Assets.xcassets */; };
+		527D50BE29ED506200E449F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527D50BD29ED506200E449F5 /* Preview Assets.xcassets */; };
+		527D50C829ED506300E449F5 /* ReditSwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50C729ED506300E449F5 /* ReditSwiftUIDemoTests.swift */; };
+		527D50D229ED506300E449F5 /* ReditSwiftUIDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50D129ED506300E449F5 /* ReditSwiftUIDemoUITests.swift */; };
+		527D50D429ED506300E449F5 /* ReditSwiftUIDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50D329ED506300E449F5 /* ReditSwiftUIDemoUITestsLaunchTests.swift */; };
+		527D50E529ED512F00E449F5 /* RedditResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50E429ED512F00E449F5 /* RedditResponse.swift */; };
+		527D50E729ED517A00E449F5 /* NetworkURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50E629ED517A00E449F5 /* NetworkURL.swift */; };
+		527D50E929ED51C900E449F5 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50E829ED51C900E449F5 /* NetworkError.swift */; };
+		527D50EB29ED520600E449F5 /* Fetchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50EA29ED520600E449F5 /* Fetchable.swift */; };
+		527D50ED29ED524300E449F5 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50EC29ED524300E449F5 /* Networking.swift */; };
+		527D50EF29ED525E00E449F5 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50EE29ED525E00E449F5 /* JsonParser.swift */; };
+		527D50F129ED528400E449F5 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50F029ED528400E449F5 /* NetworkManager.swift */; };
+		527D50F429ED52E100E449F5 /* RedithRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50F329ED52E100E449F5 /* RedithRepository.swift */; };
+		527D50F629ED53AD00E449F5 /* RedithListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50F529ED53AD00E449F5 /* RedithListViewModel.swift */; };
+		527D50F929ED58A300E449F5 /* CacheAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50F829ED58A300E449F5 /* CacheAsyncImage.swift */; };
+		527D50FB29ED590400E449F5 /* RedithAsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50FA29ED590400E449F5 /* RedithAsyncImageView.swift */; };
+		527D50FD29ED59CA00E449F5 /* RedithCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50FC29ED59CA00E449F5 /* RedithCellView.swift */; };
+		527D510029ED5C2900E449F5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50FF29ED5C2900E449F5 /* Constants.swift */; };
+		527D510429ED613F00E449F5 /* RedithListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D510329ED613F00E449F5 /* RedithListView.swift */; };
+		527D510A29ED656800E449F5 /* reddit_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 527D510929ED656800E449F5 /* reddit_response.json */; };
+		527D510E29ED65FD00E449F5 /* falie_response.json in Resources */ = {isa = PBXBuildFile; fileRef = 527D510D29ED65FD00E449F5 /* falie_response.json */; };
+		527D511129ED667100E449F5 /* FakeNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D511029ED667100E449F5 /* FakeNetworkManager.swift */; };
+		527D511329ED672300E449F5 /* RedithRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D511229ED672300E449F5 /* RedithRepositoryTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		527D50C429ED506300E449F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527D50AB29ED506100E449F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527D50B229ED506100E449F5;
+			remoteInfo = ReditSwiftUIDemo;
+		};
+		527D50CE29ED506300E449F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 527D50AB29ED506100E449F5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 527D50B229ED506100E449F5;
+			remoteInfo = ReditSwiftUIDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		527D50B329ED506100E449F5 /* ReditSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReditSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		527D50B629ED506100E449F5 /* ReditSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReditSwiftUIDemoApp.swift; sourceTree = "<group>"; };
+		527D50B829ED506100E449F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		527D50BA29ED506200E449F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		527D50BD29ED506200E449F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		527D50C329ED506300E449F5 /* ReditSwiftUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReditSwiftUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527D50C729ED506300E449F5 /* ReditSwiftUIDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReditSwiftUIDemoTests.swift; sourceTree = "<group>"; };
+		527D50CD29ED506300E449F5 /* ReditSwiftUIDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReditSwiftUIDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		527D50D129ED506300E449F5 /* ReditSwiftUIDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReditSwiftUIDemoUITests.swift; sourceTree = "<group>"; };
+		527D50D329ED506300E449F5 /* ReditSwiftUIDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReditSwiftUIDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		527D50E429ED512F00E449F5 /* RedditResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedditResponse.swift; sourceTree = "<group>"; };
+		527D50E629ED517A00E449F5 /* NetworkURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkURL.swift; sourceTree = "<group>"; };
+		527D50E829ED51C900E449F5 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		527D50EA29ED520600E449F5 /* Fetchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetchable.swift; sourceTree = "<group>"; };
+		527D50EC29ED524300E449F5 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		527D50EE29ED525E00E449F5 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		527D50F029ED528400E449F5 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		527D50F329ED52E100E449F5 /* RedithRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedithRepository.swift; sourceTree = "<group>"; };
+		527D50F529ED53AD00E449F5 /* RedithListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedithListViewModel.swift; sourceTree = "<group>"; };
+		527D50F829ED58A300E449F5 /* CacheAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheAsyncImage.swift; sourceTree = "<group>"; };
+		527D50FA29ED590400E449F5 /* RedithAsyncImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedithAsyncImageView.swift; sourceTree = "<group>"; };
+		527D50FC29ED59CA00E449F5 /* RedithCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedithCellView.swift; sourceTree = "<group>"; };
+		527D50FF29ED5C2900E449F5 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		527D510329ED613F00E449F5 /* RedithListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RedithListView.swift; sourceTree = "<group>"; };
+		527D510929ED656800E449F5 /* reddit_response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = reddit_response.json; sourceTree = "<group>"; };
+		527D510D29ED65FD00E449F5 /* falie_response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = falie_response.json; sourceTree = "<group>"; };
+		527D511029ED667100E449F5 /* FakeNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeNetworkManager.swift; sourceTree = "<group>"; };
+		527D511229ED672300E449F5 /* RedithRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedithRepositoryTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		527D50B029ED506100E449F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D50C029ED506300E449F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D50CA29ED506300E449F5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		527D50AA29ED506100E449F5 = {
+			isa = PBXGroup;
+			children = (
+				527D50B529ED506100E449F5 /* ReditSwiftUIDemo */,
+				527D50C629ED506300E449F5 /* ReditSwiftUIDemoTests */,
+				527D50D029ED506300E449F5 /* ReditSwiftUIDemoUITests */,
+				527D50B429ED506100E449F5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		527D50B429ED506100E449F5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				527D50B329ED506100E449F5 /* ReditSwiftUIDemo.app */,
+				527D50C329ED506300E449F5 /* ReditSwiftUIDemoTests.xctest */,
+				527D50CD29ED506300E449F5 /* ReditSwiftUIDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		527D50B529ED506100E449F5 /* ReditSwiftUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				527D50FE29ED5C1500E449F5 /* Preview */,
+				527D50F729ED588900E449F5 /* CacheAsyncImage */,
+				527D50F229ED52BE00E449F5 /* RedithRepository */,
+				527D50E329ED50A500E449F5 /* Views */,
+				527D50E229ED509D00E449F5 /* ViewModel */,
+				527D50E129ED509300E449F5 /* NetworkLayer */,
+				527D50E029ED508900E449F5 /* Model */,
+				527D50B629ED506100E449F5 /* ReditSwiftUIDemoApp.swift */,
+				527D50B829ED506100E449F5 /* ContentView.swift */,
+				527D50BA29ED506200E449F5 /* Assets.xcassets */,
+				527D50BC29ED506200E449F5 /* Preview Content */,
+			);
+			path = ReditSwiftUIDemo;
+			sourceTree = "<group>";
+		};
+		527D50BC29ED506200E449F5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				527D50BD29ED506200E449F5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		527D50C629ED506300E449F5 /* ReditSwiftUIDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				527D510F29ED664C00E449F5 /* json */,
+				527D50C729ED506300E449F5 /* ReditSwiftUIDemoTests.swift */,
+				527D511029ED667100E449F5 /* FakeNetworkManager.swift */,
+				527D511229ED672300E449F5 /* RedithRepositoryTest.swift */,
+			);
+			path = ReditSwiftUIDemoTests;
+			sourceTree = "<group>";
+		};
+		527D50D029ED506300E449F5 /* ReditSwiftUIDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				527D50D129ED506300E449F5 /* ReditSwiftUIDemoUITests.swift */,
+				527D50D329ED506300E449F5 /* ReditSwiftUIDemoUITestsLaunchTests.swift */,
+			);
+			path = ReditSwiftUIDemoUITests;
+			sourceTree = "<group>";
+		};
+		527D50E029ED508900E449F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				527D50E429ED512F00E449F5 /* RedditResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		527D50E129ED509300E449F5 /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				527D50E629ED517A00E449F5 /* NetworkURL.swift */,
+				527D50E829ED51C900E449F5 /* NetworkError.swift */,
+				527D50EA29ED520600E449F5 /* Fetchable.swift */,
+				527D50EC29ED524300E449F5 /* Networking.swift */,
+				527D50EE29ED525E00E449F5 /* JsonParser.swift */,
+				527D50F029ED528400E449F5 /* NetworkManager.swift */,
+			);
+			path = NetworkLayer;
+			sourceTree = "<group>";
+		};
+		527D50E229ED509D00E449F5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				527D50F529ED53AD00E449F5 /* RedithListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		527D50E329ED50A500E449F5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				527D510329ED613F00E449F5 /* RedithListView.swift */,
+				527D50FA29ED590400E449F5 /* RedithAsyncImageView.swift */,
+				527D50FC29ED59CA00E449F5 /* RedithCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		527D50F229ED52BE00E449F5 /* RedithRepository */ = {
+			isa = PBXGroup;
+			children = (
+				527D50F329ED52E100E449F5 /* RedithRepository.swift */,
+			);
+			path = RedithRepository;
+			sourceTree = "<group>";
+		};
+		527D50F729ED588900E449F5 /* CacheAsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				527D50F829ED58A300E449F5 /* CacheAsyncImage.swift */,
+			);
+			path = CacheAsyncImage;
+			sourceTree = "<group>";
+		};
+		527D50FE29ED5C1500E449F5 /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				527D50FF29ED5C2900E449F5 /* Constants.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		527D510F29ED664C00E449F5 /* json */ = {
+			isa = PBXGroup;
+			children = (
+				527D510D29ED65FD00E449F5 /* falie_response.json */,
+				527D510929ED656800E449F5 /* reddit_response.json */,
+			);
+			path = json;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		527D50B229ED506100E449F5 /* ReditSwiftUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527D50D729ED506300E449F5 /* Build configuration list for PBXNativeTarget "ReditSwiftUIDemo" */;
+			buildPhases = (
+				527D50AF29ED506100E449F5 /* Sources */,
+				527D50B029ED506100E449F5 /* Frameworks */,
+				527D50B129ED506100E449F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReditSwiftUIDemo;
+			productName = ReditSwiftUIDemo;
+			productReference = 527D50B329ED506100E449F5 /* ReditSwiftUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		527D50C229ED506300E449F5 /* ReditSwiftUIDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527D50DA29ED506300E449F5 /* Build configuration list for PBXNativeTarget "ReditSwiftUIDemoTests" */;
+			buildPhases = (
+				527D50BF29ED506300E449F5 /* Sources */,
+				527D50C029ED506300E449F5 /* Frameworks */,
+				527D50C129ED506300E449F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527D50C529ED506300E449F5 /* PBXTargetDependency */,
+			);
+			name = ReditSwiftUIDemoTests;
+			productName = ReditSwiftUIDemoTests;
+			productReference = 527D50C329ED506300E449F5 /* ReditSwiftUIDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		527D50CC29ED506300E449F5 /* ReditSwiftUIDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 527D50DD29ED506300E449F5 /* Build configuration list for PBXNativeTarget "ReditSwiftUIDemoUITests" */;
+			buildPhases = (
+				527D50C929ED506300E449F5 /* Sources */,
+				527D50CA29ED506300E449F5 /* Frameworks */,
+				527D50CB29ED506300E449F5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				527D50CF29ED506300E449F5 /* PBXTargetDependency */,
+			);
+			name = ReditSwiftUIDemoUITests;
+			productName = ReditSwiftUIDemoUITests;
+			productReference = 527D50CD29ED506300E449F5 /* ReditSwiftUIDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		527D50AB29ED506100E449F5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					527D50B229ED506100E449F5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					527D50C229ED506300E449F5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 527D50B229ED506100E449F5;
+					};
+					527D50CC29ED506300E449F5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 527D50B229ED506100E449F5;
+					};
+				};
+			};
+			buildConfigurationList = 527D50AE29ED506100E449F5 /* Build configuration list for PBXProject "ReditSwiftUIDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 527D50AA29ED506100E449F5;
+			productRefGroup = 527D50B429ED506100E449F5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				527D50B229ED506100E449F5 /* ReditSwiftUIDemo */,
+				527D50C229ED506300E449F5 /* ReditSwiftUIDemoTests */,
+				527D50CC29ED506300E449F5 /* ReditSwiftUIDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		527D50B129ED506100E449F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D50BE29ED506200E449F5 /* Preview Assets.xcassets in Resources */,
+				527D50BB29ED506200E449F5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D50C129ED506300E449F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D510E29ED65FD00E449F5 /* falie_response.json in Resources */,
+				527D510A29ED656800E449F5 /* reddit_response.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D50CB29ED506300E449F5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		527D50AF29ED506100E449F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D50FD29ED59CA00E449F5 /* RedithCellView.swift in Sources */,
+				527D50F129ED528400E449F5 /* NetworkManager.swift in Sources */,
+				527D50EB29ED520600E449F5 /* Fetchable.swift in Sources */,
+				527D50F629ED53AD00E449F5 /* RedithListViewModel.swift in Sources */,
+				527D50FB29ED590400E449F5 /* RedithAsyncImageView.swift in Sources */,
+				527D510029ED5C2900E449F5 /* Constants.swift in Sources */,
+				527D510429ED613F00E449F5 /* RedithListView.swift in Sources */,
+				527D50E729ED517A00E449F5 /* NetworkURL.swift in Sources */,
+				527D50EF29ED525E00E449F5 /* JsonParser.swift in Sources */,
+				527D50F929ED58A300E449F5 /* CacheAsyncImage.swift in Sources */,
+				527D50B929ED506100E449F5 /* ContentView.swift in Sources */,
+				527D50F429ED52E100E449F5 /* RedithRepository.swift in Sources */,
+				527D50B729ED506100E449F5 /* ReditSwiftUIDemoApp.swift in Sources */,
+				527D50E529ED512F00E449F5 /* RedditResponse.swift in Sources */,
+				527D50E929ED51C900E449F5 /* NetworkError.swift in Sources */,
+				527D50ED29ED524300E449F5 /* Networking.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D50BF29ED506300E449F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D511329ED672300E449F5 /* RedithRepositoryTest.swift in Sources */,
+				527D50C829ED506300E449F5 /* ReditSwiftUIDemoTests.swift in Sources */,
+				527D511129ED667100E449F5 /* FakeNetworkManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		527D50C929ED506300E449F5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				527D50D429ED506300E449F5 /* ReditSwiftUIDemoUITestsLaunchTests.swift in Sources */,
+				527D50D229ED506300E449F5 /* ReditSwiftUIDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		527D50C529ED506300E449F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527D50B229ED506100E449F5 /* ReditSwiftUIDemo */;
+			targetProxy = 527D50C429ED506300E449F5 /* PBXContainerItemProxy */;
+		};
+		527D50CF29ED506300E449F5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 527D50B229ED506100E449F5 /* ReditSwiftUIDemo */;
+			targetProxy = 527D50CE29ED506300E449F5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		527D50D529ED506300E449F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		527D50D629ED506300E449F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		527D50D829ED506300E449F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReditSwiftUIDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ReditSwiftUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		527D50D929ED506300E449F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ReditSwiftUIDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ReditSwiftUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		527D50DB29ED506300E449F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ReditSwiftUIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReditSwiftUIDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReditSwiftUIDemo";
+			};
+			name = Debug;
+		};
+		527D50DC29ED506300E449F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ReditSwiftUIDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReditSwiftUIDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ReditSwiftUIDemo";
+			};
+			name = Release;
+		};
+		527D50DE29ED506300E449F5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ReditSwiftUIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReditSwiftUIDemo;
+			};
+			name = Debug;
+		};
+		527D50DF29ED506300E449F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Swift.ReditSwiftUIDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ReditSwiftUIDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		527D50AE29ED506100E449F5 /* Build configuration list for PBXProject "ReditSwiftUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527D50D529ED506300E449F5 /* Debug */,
+				527D50D629ED506300E449F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527D50D729ED506300E449F5 /* Build configuration list for PBXNativeTarget "ReditSwiftUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527D50D829ED506300E449F5 /* Debug */,
+				527D50D929ED506300E449F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527D50DA29ED506300E449F5 /* Build configuration list for PBXNativeTarget "ReditSwiftUIDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527D50DB29ED506300E449F5 /* Debug */,
+				527D50DC29ED506300E449F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		527D50DD29ED506300E449F5 /* Build configuration list for PBXNativeTarget "ReditSwiftUIDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				527D50DE29ED506300E449F5 /* Debug */,
+				527D50DF29ED506300E449F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 527D50AB29ED506100E449F5 /* Project object */;
+}
