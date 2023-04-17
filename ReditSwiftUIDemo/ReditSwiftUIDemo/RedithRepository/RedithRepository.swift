@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol RedithRepository{
+protocol RedithRepository {
     func getList(for url: URL) async throws -> RedditResponse
 }
 

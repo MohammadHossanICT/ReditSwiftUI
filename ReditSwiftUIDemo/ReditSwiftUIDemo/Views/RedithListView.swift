@@ -11,7 +11,7 @@ struct RedithListView: View {
     @StateObject var viewModel: RedithListViewModel
 
     var body: some View {
-        NavigationStack{
+        NavigationStack {
             VStack{
                 if viewModel.customError != nil && !viewModel.refreshing {
                   alertView()
@@ -69,7 +69,7 @@ struct RedithListView: View {
             .overlay{
                 VStack{
                     ProgressView().padding(50)
-                    Text("Please_Wait_Message").font(.headline)
+                    Text("Please Wait Message").font(.headline)
                 }
             }
         }

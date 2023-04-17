@@ -8,11 +8,11 @@
 import Foundation
 
 protocol JsonParser {
-    func parse<T: Decodable>(data: Data, type:T.Type)throws -> T
+    func parse<T: Decodable>(data: Data, type:T.Type) throws -> T
 }
 
 extension JsonParser {
-    func parse<T: Decodable>(data: Data, type:T.Type)throws -> T {
+    func parse<T: Decodable>(data: Data, type:T.Type) throws -> T {
         let decoder = JSONDecoder()
         decoder.keyDecodingStrategy = .convertFromSnakeCase
         do {

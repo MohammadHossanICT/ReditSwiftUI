@@ -36,8 +36,7 @@ struct RedithAsyncImageView: View {
                 @unknown default:
                     Image("placeholder-image")
                 }
+
             }
     }
 }
-
-
