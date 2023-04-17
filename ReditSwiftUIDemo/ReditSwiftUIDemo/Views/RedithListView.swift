@@ -15,7 +15,7 @@ struct RedithListView: View {
             VStack{
                 if viewModel.customError != nil && !viewModel.refreshing {
                   alertView()
-                }else{
+                } else {
                     if viewModel.refreshing {
                         progressView()
                     }
