@@ -21,10 +21,10 @@ struct RedithRepositoryImplementation {
 
 extension RedithRepositoryImplementation: RedithRepository, JsonParser {
     func getList(for url: URL) async throws -> RedditResponse {
-        do{
+        do {
             let listsData = try await networkManager.get(url: url)
             return try parse(data: listsData, type: RedditResponse.self)
-        }catch {
+        } catch {
             throw error
         }
     }

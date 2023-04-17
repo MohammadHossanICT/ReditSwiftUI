@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		527D50B729ED506100E449F5 /* ReditSwiftUIDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50B629ED506100E449F5 /* ReditSwiftUIDemoApp.swift */; };
-		527D50B929ED506100E449F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50B829ED506100E449F5 /* ContentView.swift */; };
 		527D50BB29ED506200E449F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527D50BA29ED506200E449F5 /* Assets.xcassets */; };
 		527D50BE29ED506200E449F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 527D50BD29ED506200E449F5 /* Preview Assets.xcassets */; };
 		527D50C829ED506300E449F5 /* ReditSwiftUIDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527D50C729ED506300E449F5 /* ReditSwiftUIDemoTests.swift */; };
@@ -54,7 +53,6 @@
 /* Begin PBXFileReference section */
 		527D50B329ED506100E449F5 /* ReditSwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReditSwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		527D50B629ED506100E449F5 /* ReditSwiftUIDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReditSwiftUIDemoApp.swift; sourceTree = "<group>"; };
-		527D50B829ED506100E449F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		527D50BA29ED506200E449F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		527D50BD29ED506200E449F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		527D50C329ED506300E449F5 /* ReditSwiftUIDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReditSwiftUIDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -138,7 +136,6 @@
 				527D50E129ED509300E449F5 /* NetworkLayer */,
 				527D50E029ED508900E449F5 /* Model */,
 				527D50B629ED506100E449F5 /* ReditSwiftUIDemoApp.swift */,
-				527D50B829ED506100E449F5 /* ContentView.swift */,
 				527D50BA29ED506200E449F5 /* Assets.xcassets */,
 				527D50BC29ED506200E449F5 /* Preview Content */,
 			);
@@ -387,7 +384,6 @@
 				527D50E729ED517A00E449F5 /* NetworkURL.swift in Sources */,
 				527D50EF29ED525E00E449F5 /* JsonParser.swift in Sources */,
 				527D50F929ED58A300E449F5 /* CacheAsyncImage.swift in Sources */,
-				527D50B929ED506100E449F5 /* ContentView.swift in Sources */,
 				527D50F429ED52E100E449F5 /* RedithRepository.swift in Sources */,
 				527D50B729ED506100E449F5 /* ReditSwiftUIDemoApp.swift in Sources */,
 				527D50E529ED512F00E449F5 /* RedditResponse.swift in Sources */,
